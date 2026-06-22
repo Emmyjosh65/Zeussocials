@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - ZeusSocials</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">⚡ ZeusSocials</div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="free-tier.html" class="free-tier-link">🎁 Free Tier</a></li>
+                <li><a href="login.html" class="auth-btn">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="services-hero">
+            <h1>Our Premium Services</h1>
+            <p>Choose from multiple platforms and packages to boost your engagement</p>
+        </div>
+
+        <div class="services-list">
+            <!-- TikTok -->
+            <div class="service-section">
+                <h2>🎵 TikTok Promotion</h2>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h4>Starter</h4>
+                        <div class="price">₦500</div>
+                        <ul class="package-features">
+                            <li>100 Followers</li>
+                            <li>500 Likes</li>
+                            <li>24hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('TikTok', 'Starter', 500)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Pro</h4>
+                        <div class="price">₦1,200</div>
+                        <ul class="package-features">
+                            <li>500 Followers</li>
+                            <li>2500 Likes</li>
+                            <li>12hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('TikTok', 'Pro', 1200)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Premium</h4>
+                        <div class="price">₦2,500</div>
+                        <ul class="package-features">
+                            <li>1000+ Followers</li>
+                            <li>5000+ Likes</li>
+                            <li>6hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('TikTok', 'Premium', 2500)">Get Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="service-section">
+                <h2>📸 Instagram Promotion</h2>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h4>Starter</h4>
+                        <div class="price">₦600</div>
+                        <ul class="package-features">
+                            <li>150 Followers</li>
+                            <li>300 Likes/Post</li>
+                            <li>24hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Instagram', 'Starter', 600)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Pro</h4>
+                        <div class="price">₦1,500</div>
+                        <ul class="package-features">
+                            <li>500 Followers</li>
+                            <li>1000 Likes/Post</li>
+                            <li>12hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Instagram', 'Pro', 1500)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Premium</h4>
+                        <div class="price">₦3,000</div>
+                        <ul class="package-features">
+                            <li>1500 Followers</li>
+                            <li>3000 Likes/Post</li>
+                            <li>6hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Instagram', 'Premium', 3000)">Get Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Facebook -->
+            <div class="service-section">
+                <h2>👥 Facebook Promotion</h2>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h4>Starter</h4>
+                        <div class="price">₦400</div>
+                        <ul class="package-features">
+                            <li>200 Followers</li>
+                            <li>400 Likes</li>
+                            <li>24hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Facebook', 'Starter', 400)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Pro</h4>
+                        <div class="price">₦900</div>
+                        <ul class="package-features">
+                            <li>500 Followers</li>
+                            <li>1000 Likes</li>
+                            <li>12hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Facebook', 'Pro', 900)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Premium</h4>
+                        <div class="price">₦1,800</div>
+                        <ul class="package-features">
+                            <li>1200 Followers</li>
+                            <li>2500 Likes</li>
+                            <li>6hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Facebook', 'Premium', 1800)">Get Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- YouTube -->
+            <div class="service-section">
+                <h2>📺 YouTube Promotion</h2>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h4>Starter</h4>
+                        <div class="price">₦700</div>
+                        <ul class="package-features">
+                            <li>100 Subscribers</li>
+                            <li>1000 Views</li>
+                            <li>24hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('YouTube', 'Starter', 700)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Pro</h4>
+                        <div class="price">₦1,600</div>
+                        <ul class="package-features">
+                            <li>300 Subscribers</li>
+                            <li>5000 Views</li>
+                            <li>12hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('YouTube', 'Pro', 1600)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Premium</h4>
+                        <div class="price">₦3,200</div>
+                        <ul class="package-features">
+                            <li>1000 Subscribers</li>
+                            <li>15000 Views</li>
+                            <li>6hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('YouTube', 'Premium', 3200)">Get Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Telegram -->
+            <div class="service-section">
+                <h2>✈️ Telegram Promotion</h2>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h4>Starter</h4>
+                        <div class="price">₦450</div>
+                        <ul class="package-features">
+                            <li>100 Members</li>
+                            <li>200 Views</li>
+                            <li>24hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Telegram', 'Starter', 450)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Pro</h4>
+                        <div class="price">₦1,100</div>
+                        <ul class="package-features">
+                            <li>300 Members</li>
+                            <li>1000 Views</li>
+                            <li>12hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Telegram', 'Pro', 1100)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Premium</h4>
+                        <div class="price">₦2,200</div>
+                        <ul class="package-features">
+                            <li>1000 Members</li>
+                            <li>5000 Views</li>
+                            <li>6hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Telegram', 'Premium', 2200)">Get Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Twitter/X -->
+            <div class="service-section">
+                <h2>𝕏 Twitter/X Promotion</h2>
+                <div class="packages-grid">
+                    <div class="package-card">
+                        <h4>Starter</h4>
+                        <div class="price">₦550</div>
+                        <ul class="package-features">
+                            <li>100 Followers</li>
+                            <li>300 Likes</li>
+                            <li>24hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Twitter', 'Starter', 550)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Pro</h4>
+                        <div class="price">₦1,300</div>
+                        <ul class="package-features">
+                            <li>400 Followers</li>
+                            <li>1500 Likes</li>
+                            <li>12hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Twitter', 'Pro', 1300)">Get Now</button>
+                    </div>
+                    <div class="package-card">
+                        <h4>Premium</h4>
+                        <div class="price">₦2,600</div>
+                        <ul class="package-features">
+                            <li>1000 Followers</li>
+                            <li>5000 Likes</li>
+                            <li>6hr Delivery</li>
+                        </ul>
+                        <button class="btn btn-primary" onclick="goToCheckout('Twitter', 'Premium', 2600)">Get Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 ZeusSocials - All Rights Reserved.</p>
+    </footer>
+
+    <script src="../js/orders.js"></script>
+</body>
+</html>
