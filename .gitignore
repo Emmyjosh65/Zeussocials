@@ -1,0 +1,24 @@
+# Firebase
+.firebaserc
+firebase-debug.log
+
+# Environment variables
+.env
+.env.local
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
